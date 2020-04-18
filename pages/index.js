@@ -9,7 +9,7 @@ const IndexPage = () => {
         description={`Personal website of Erhan Karadeniz where I showcase my project and blog about React.js, Next.js and more..`}
         canonical={`https://www.erhankaradeniz.com`}
       />
-      <div>Erhan Karadeniz</div>
+      <div>Erhan</div>
     </>
   )
 }
