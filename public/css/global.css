@@ -1,0 +1,29 @@
+/* purgecss start ignore */
+@tailwind base;
+/* purgecss end ignore */
+
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-gray-500;
+}
+body {
+  @apply antialiased bg-gray-100;
+  padding: 0;
+}
+
+body.dark-mode {
+  @apply bg-gray-1000 text-gray-100;
+}
+a {
+  color: rebeccapurple;
+  transition: all 125ms ease-in-out;
+}
+
+.dark-mode { cursor: auto;}
+.dark-mode-transition * {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
