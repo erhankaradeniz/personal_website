@@ -9,7 +9,7 @@ const IndexPage = () => {
         description={`Personal website of Erhan Karadeniz where I showcase my project and blog about React.js, Next.js and more..`}
         canonical={`https://www.erhankaradeniz.com`}
       />
-      <div className="flex flex-row max-w-screen-lg mx-auto mt-48 px-4 md:px-0 mb-20">
+      <div className="flex flex-row max-w-screen-lg mx-auto mt-12 md:mt-48 px-4 md:px-0 mb-20">
         <div className="hidden md:block w-1/4"></div>
         <div className="w-full md:w-3/4">
           <h1 className="text-3xl font-bold">Erhan Karadeniz</h1>
@@ -80,8 +80,8 @@ const IndexPage = () => {
           </ul>
         </div>
       </div>
-      <div className="flex flex-row max-w-screen-lg mx-auto px-4 md:px-0 mb-12">
-        <div className="hidden md:block w-1/4">
+      <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto px-4 md:px-0 mb-12">
+        <div className="w-full md:w-1/4">
           <span className="text-yellow-500 font-sans font-bold text-sm">
             CLIENT EXPERIENCE
           </span>
@@ -116,8 +116,8 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row max-w-screen-lg mx-auto px-4 md:px-0">
-        <div className="hidden md:block w-1/4">
+      <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto px-4 md:px-0">
+        <div className="w-full md:w-1/4">
           <span className="text-yellow-500 font-sans font-bold text-sm">
             BLOG
           </span>
