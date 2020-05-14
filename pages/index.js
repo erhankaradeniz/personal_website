@@ -116,7 +116,48 @@ const IndexPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto px-4 md:px-0">
+      <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto px-4 md:px-0 mb-12">
+        <div className="w-full md:w-1/4">
+          <span className="text-yellow-500 font-sans font-bold text-sm">
+            DEV TIPS
+          </span>
+        </div>
+        <div className="w-full md:w-3/4">
+          I try to tweet daily tips about{" "}
+          <a
+            href="https://nextjs.org"
+            rel="noopener"
+            title="Next.js Framework"
+            target="_blank"
+            className="text-yellow-500 no-underline hover:underline"
+          >
+            Next.js
+          </a>
+          . <br />
+          You can find those tips on my{" "}
+          <a
+            href="https://twitter.com/erhankaradeniz"
+            rel="noopener"
+            target="_blank"
+            title="Erhan Karadeniz on Twitter"
+            className="text-yellow-500 no-underline hover:underline"
+          >
+            Twitter
+          </a>{" "}
+          account account, those tweets / tips can also be found on{" "}
+          <a
+            href="https://nextjstips.com/?ref=erhankaradeniz"
+            rel="noopener"
+            target="_blank"
+            title="Next.js daily tips by Erhan Karadeniz"
+            className="text-yellow-500 no-underline hover:underline"
+          >
+            nextjstips.com
+          </a>
+          .
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto px-4 md:px-0 mb-12">
         <div className="w-full md:w-1/4">
           <span className="text-yellow-500 font-sans font-bold text-sm">
             BLOG
