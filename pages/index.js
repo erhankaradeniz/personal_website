@@ -6,7 +6,7 @@ const IndexPage = () => {
     <>
       <NextSeo
         title={`Erhan Karadeniz`}
-        description={`Personal website of Erhan Karadeniz here I blog about React.js, Next.js, Nomadbond, Tailwindcss and more..`}
+        description={`Personal website of Erhan Karadeniz here I blog and share tips about React.js, Next.js, Tailwindcss and more..`}
         canonical={`https://www.erhankaradeniz.com`}
       />
       <div className="flex flex-row max-w-screen-lg mx-auto mt-12 md:mt-48 px-4 md:px-0 mb-20">
