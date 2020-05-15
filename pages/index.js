@@ -144,7 +144,7 @@ const IndexPage = () => {
           >
             Twitter
           </a>{" "}
-          account account, those tweets / tips can also be found on{" "}
+          account, those tweets / tips can also be found on{" "}
           <a
             href="https://nextjstips.com/?ref=erhankaradeniz"
             rel="noopener"
