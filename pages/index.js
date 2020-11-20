@@ -155,6 +155,7 @@ const IndexPage = () => {
             nextjstips.com
           </a>
           .
+          For developers looking for <a href="https://remotebond.com" className="text-yellow-500 no-underline hover:underline" title="Remote Jobs" target="_blank" rel="noopener">Remote Jobs</a> I've made a website called <a href="https://remotebond.com" className="text-yellow-500 no-underline hover:underline" title="Remote Jobs" target="_blank" rel="noopener">Remotebond</a>
         </div>
       </div>
       <div className="flex flex-col md:flex-row max-w-screen-lg mx-auto px-4 md:px-0 mb-12">
